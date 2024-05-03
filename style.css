@@ -1,26 +1,15 @@
 .wrapperSatu {
-    padding: 0;
-    margin: 0;
     height: 500px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.wrapperDua {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    display: flex;
-}
 
-.container{
-    padding: 0;
-    margin-left: 50px;
-    margin-right: 50px;
+.wrapperDua {
+    height: 500px;
     width: 100%;
     display: flex;
-    position: fixed;
     justify-content: center;
     align-items: center;
 }
