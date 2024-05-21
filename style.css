@@ -7,14 +7,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-#bio{
-    height: 500px;
-    width: 100%;
-}
 
-.wrapper{
-    height: 500px;
+section{
     width: 100%;
+    height: 100vh;
 }
 
 .cover{
@@ -23,9 +19,7 @@
     align-items: center;
 }
 .cover-name{
-    width: 100%;
-    height: 100vh;
-    margin-top: 250px;
+    margin-top: -80px;
     text-align: center;
 }
 .cover-name h1{
@@ -37,4 +31,26 @@
     font-family: "more sugar";
     font-size: 32px;
     word-spacing: 10px;
+}
+
+.profil-cover{
+    font-family: "more sugar";
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.about2-logo{
+    display: flex;
+    gap: 30px;
 }
